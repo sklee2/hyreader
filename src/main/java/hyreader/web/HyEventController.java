@@ -19,7 +19,7 @@ public class HyEventController {
     @Autowired
     HyEventService hyEventService;
 
-    @RequestMapping("/index")
+    @RequestMapping("index")
     String index(){
         return "index";
     }
