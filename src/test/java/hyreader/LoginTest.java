@@ -1,6 +1,8 @@
 package hyreader;
 
+import sso.domain.SSOInfo;
 import sso.service.EzhubUrl;
+import sso.service.SSOJdomParsing;
 
 import java.io.InputStream;
 
@@ -12,6 +14,11 @@ public class LoginTest {
         EzhubUrl ezUrl = new EzhubUrl();
 
         InputStream temp = ezUrl.EncryptAuthenticCheck("sklee", "hangover14");
-        System.out.println(temp);
+
+        SSOJdomParsing ssoJdomParsing = new SSOJdomParsing();
+
+        SSOInfo ssoInfo=ssoJdomParsing.getSSOInfo(temp);
+
+        System.out.println(ssoInfo);
     }
 }
