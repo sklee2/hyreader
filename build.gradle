@@ -39,6 +39,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.webjars:bootstrap:3.3.5")
+    compile("org.webjars:jquery:2.1.4")
 //    compile (":ezhub_crypto_rsa")
 //    compile files ("libs/ezhub_crypto_rsa.jar")
 //    compile files ("ezhub_crypto_rsa.jar")

@@ -21,7 +21,7 @@ public class HyEventController {
 
     @RequestMapping("index")
     String index(){
-        return "index";
+        return "hyEvents/index";
     }
 
     @RequestMapping(method = RequestMethod.GET)
