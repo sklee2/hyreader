@@ -1,8 +1,8 @@
 package hyreader;
 
-import sso.domain.SSOInfo;
-import sso.service.EzhubUrl;
-import sso.service.SSOJdomParsing;
+import hyreader.sso.domain.SSOInfo;
+import hyreader.sso.service.EzhubUrl;
+import hyreader.sso.service.SSOJdomParsing;
 
 import java.io.InputStream;
 

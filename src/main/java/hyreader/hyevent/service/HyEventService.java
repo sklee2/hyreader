@@ -1,7 +1,7 @@
-package hyreader.service;
+package hyreader.hyevent.service;
 
-import hyreader.domain.HyEvent;
-import hyreader.domain.HyEventRepository;
+import hyreader.hyevent.domain.HyEvent;
+import hyreader.hyevent.domain.HyEventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

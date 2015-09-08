@@ -1,4 +1,4 @@
-package hyreader.domain;
+package hyreader.hyevent.domain;
 
 import javax.persistence.*;
 

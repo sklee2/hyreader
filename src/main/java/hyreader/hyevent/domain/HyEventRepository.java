@@ -1,4 +1,4 @@
-package hyreader.domain;
+package hyreader.hyevent.domain;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
