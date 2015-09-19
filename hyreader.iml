@@ -102,6 +102,5 @@
     <orderEntry type="library" exported="" name="Gradle: org.springframework.security:spring-security-web:3.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="ezhub_crypto_rsa" level="project" />
     <orderEntry type="library" name="jdom2-2.0.6" level="project" />
-    <orderEntry type="library" name="jdom2-2.0.5" level="project" />
   </component>
 </module>
