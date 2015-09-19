@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>행사 리스트</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.5/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+          th:href="@{/webjars/bootstrap/3.3.5/css/bootstrap-theme.min.css}"/>
+</head>
+
+    <body>
+        <h1>Login page</h1>
+        <p>Example administrator: jim / demo</p>
+        <p>Example user: bob / demo</p>
+        <p>Example user and administrator: ted / demo</p>
+        <p th:if="${loginError}" class="error">Wrong user or password</p>
+        <form th:action="@{/login}" method="post">
+            <label for="username">Username</label>:
+            <input type="text" id="username" name="username" autofocus="autofocus" /> <br />
+            <label for="password">Password</label>:
+            <input type="password" id="password" name="password" /> <br />
+            <input type="submit" value="Log in" />
+        </form>
+        <p><a href="../" th:href="@{/}">Back to home page</a></p>
+    </body>
+</html>

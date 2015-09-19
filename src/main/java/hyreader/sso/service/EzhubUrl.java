@@ -34,7 +34,7 @@ public class EzhubUrl {
 //        System.setProperty("jeus.home", "$CATALINA_HOME");
 // 다음이 중요   또는 Run Configurations에서:::: -Djeus.home="C:\sts-bundle\apache-tomcat-8.0.24"
         //VMOptions   -Djeus.home="/Users/MyiMac/IdeaProjects/hyreader/libs"
-//        System.setProperty("jeus.home", "./");
+        System.setProperty("jeus.home", "./libs");  //tomcat에서 돌아가려면 필요
         try {
             String loginGb = "1";
             String systemGb = "LIBRARY";
