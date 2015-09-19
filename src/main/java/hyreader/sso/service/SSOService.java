@@ -15,7 +15,7 @@ public class SSOService {
     public SSOInfo EncryptAuthenticCheck(String id, String pw){
         EzhubUrl ezUrl = new EzhubUrl();
 
-        InputStream temp = ezUrl.EncryptAuthenticCheck("sklee", "hangover14");
+        InputStream temp = ezUrl.EncryptAuthenticCheck(id, pw);
 
         SSOJdomParsing ssoJdomParsing = new SSOJdomParsing();
 
