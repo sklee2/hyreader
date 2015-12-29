@@ -13,7 +13,7 @@ public class LoginTest {
     public static void main(String[] args) {
         EzhubUrl ezUrl = new EzhubUrl();
 
-        InputStream temp = ezUrl.EncryptAuthenticCheck("sklee", "hangover14");
+        InputStream temp = ezUrl.EncryptAuthenticCheck("sklee", "hyulib1361");
 
         SSOJdomParsing ssoJdomParsing = new SSOJdomParsing();
 
